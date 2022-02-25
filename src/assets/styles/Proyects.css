@@ -2,34 +2,86 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    height: 100vh;
     width: 100%;
-    padding: 30px;
+    padding: 50px;
 }
 
 .proyects > *{
-    margin-bottom: 30px;
-}
-
-.proyects > h1 {
-    align-self: flex-start;
-    border-bottom: 2px solid var(--blueviolet);
-    color: var(--blueviolet);
-    padding-bottom: 3px;
-    width: 150px;
+    margin-bottom: 70px;
 }
 
 .proyects__all-proyects{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    justify-content: center;
 }
 
 .proyects__all-proyects__proyect{
-    border: 1px solid var(--blueviolet);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 1fr;
-    height: 300px;
-    max-width: 300px;
-    margin: 0px 20px 20px 0px;
-    padding: 10px;
+    max-width: 400px;
+    margin: 0px 30px 30px 0px;
+    padding: 15px;
+}
+
+.proyects__all-proyects__proyect * {
+    margin-bottom: 20px;
+}
+
+.proyects__all-proyects__proyect > h2{
+    color: var(--blueviolet);
+}
+
+.proyects__all-proyects__proyect > img{
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.proyects__all-proyects__proyect > p{
+    text-align: center;
+}
+
+.proyects__all-proyects__proyect > div {
+    color: var(--blueviolet);
+}
+
+.proyects__all-proyects__proyect > div > :first-child{
+    margin-right: 15px;
+}
+
+@media ( max-width: 599px) {
+    .proyects{
+        padding: 0px;
+    }
+
+    .proyects > h1 {
+        margin-left: 10px;
+    }
+
+    .proyects__all-proyects__proyect{
+        min-width: 200px;
+        margin: 0px 0px 30px 0px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1199px) {
+  
+ 
+}
+
+@media (min-width: 1200px) {
+    .proyects > h1 {
+        margin-left: 120px;
+    }
+
+    .proyects > *{
+        margin-bottom: 100px;
+    }
+    
 }

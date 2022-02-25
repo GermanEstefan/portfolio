@@ -11,7 +11,7 @@ export const AllProyects = () => {
         <div className='proyects__all-proyects'>
             {
                 proyects.map(proyect => (
-                    <Proyect key={proyect.id} props={proyect} />
+                    <Proyect key={proyect.id} props={{...proyect}} />
                 ))
             }
         </div>

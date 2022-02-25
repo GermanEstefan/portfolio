@@ -9,20 +9,31 @@
     align-items: center;
     justify-content: center;
     display: flex;
+    flex-wrap: wrap-reverse;
     font-weight: bold;
+    width: 100%;
+    padding: 20px;
 }
 
 .first-view__presentation__image {
     border-radius: 50%;
     object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 300px;
+    min-width: 300px;
 }
 
 .first-view__presentation > p {
-    text-align: center;
+    text-align: left;
+    font-size: 2rem;
+    min-width: 400px;
+    max-width: 500px;
+    margin-right: 25px;
 }
 
 .first-view__presentation > p > b,strong{
     color: var(--blueviolet);
+    font-size: 2.3rem; 
 }
 
 .first-view__slide-arrow{
@@ -57,79 +68,39 @@
 }
 
 @media ( max-width: 599px) {
-
-    .first-view{
-        background-position:top;
-    }
-
     .first-view__presentation{
-        flex-direction: column;
+        padding: 10px;
     }
 
-    .first-view__presentation > p{
-        padding: 0px 10px 0px 10px;
+    .first-view__presentation > p {
+        text-align: center;
         font-size: 1.3rem;
+        min-width: 180px;
+        margin-right: 0px;
     }
 
-    .first-view__presentation > p > b,strong {
-        font-size: 1.6rem;
+    .first-view__presentation > p > b,strong{
+        color: var(--blueviolet);
+        font-size: 1.6rem; 
     }
 
-    .first-view__presentation__image{
-        width: 70%;
+    .first-view__presentation > img {
+        min-width: 250px;
         height: 250px;
     }
-}
-
-/*NO*/
-@media ( max-width: 350px) {
-    .first-view__presentation__image{
-        width: 70%;
-        height: 200px;
-    } 
-}
-
-@media (min-width: 600px) and (max-width: 1199px) {
-
-    .first-view{
-        background-position:top;
-    }
-  
-    .first-view__presentation{
-        padding: 0px 20px 0px 20px;
-    }
-
-    .first-view__presentation > p{
-        text-align: left ;
-        font-size: 1.6rem;
-    }
-
-    .first-view__presentation > p > b,strong {
-        font-size: 1.9rem;
-    }
-
-    .first-view__presentation__image{
-        width: 45%;
-        height: 230px;
-        order: 1;
-    }  
 
 }
 
 @media (min-width: 1200px) {
 
     .first-view__presentation > p {
-        text-align: left;
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
 
-    .first-view__presentation > p > b,strong {
-        font-size: 2.3rem;   
+    .first-view__presentation > p > b,strong{
+        color: var(--blueviolet);
+        font-size: 2.5rem; 
     }
-
-    .first-view__presentation__image{
-        width: 45%;
-        height: 270px;
-        order: 1;
-    }
+    
 }
+

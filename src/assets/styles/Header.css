@@ -9,10 +9,6 @@ header{
     top: 0;
 }
 
-.dale{
-    color: red !important;
-}
-
 .social-medias {
     margin-left: 20px;
     position: absolute;
@@ -31,7 +27,7 @@ header{
     background-color: var(--blueviolet);
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 100%;
     position: fixed;
     right: 0;
     top: 0px;
@@ -98,7 +94,7 @@ header{
     }
 
     .nav-mobile__link{
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
     
 }

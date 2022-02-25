@@ -1,0 +1,165 @@
+.contact{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 1500px;
+    width: 100%;
+    padding: 50px;
+}
+
+.contact > * {
+    margin-bottom: 70px;
+}
+
+.contact__ui-container {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.contact__ui-container > * {
+    width: 50%;
+    min-width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.35) 15px 10px 15px;
+    height: inherit;
+    padding: 20px;
+}
+
+.contact__ui-container__info-contact {
+    background-image: url(../images/card-contact.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contact__ui-container__info-contact > div  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact__ui-container__info-contact > div {
+    font-weight: bold;
+}
+
+.contact__ui-container__info-contact > div > div > :first-child{
+    margin-right: 10px;
+}
+
+.contact__ui-container__info-contact > div > div > :last-child{
+    margin-left: 10px;
+}
+
+.contact__ui-container > form {
+    align-items: center;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact__ui-container > form > * {
+    margin-bottom: 30px;
+}
+
+.contact__ui-container > form > :nth-child(2){
+    color: var(--blueviolet);
+    cursor:default;
+}
+
+
+.contact__ui-container > form > input{
+    width: 60%;
+    height: 35px;
+}
+
+.contact__ui-container > form > button{
+    width: 60%;
+    background-color: var(--blueviolet);
+    height: 35px;
+    color: #f2f2f2;
+    cursor: pointer;
+}
+
+.contact__ui-container > form > textarea{
+    width: 60%;
+    height: 150px;
+    resize: none;
+}
+
+@media ( max-width: 599px) {
+
+    .contact{
+        padding: 0px;
+       
+    }
+
+    .contact > h1 {
+        margin-left: 10px;
+    }
+
+    .contact__ui-container{
+        box-shadow: none;
+    }
+
+    .contact__ui-container > * {
+        height: 500px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
+    }
+    
+
+    .contact__ui-container > form > input{
+        width: 90%;
+    }
+
+    .contact__ui-container > form > button{
+        width: 90%;
+    }
+
+    .contact__ui-container > form > textarea{
+        width: 90%;
+    }
+
+}
+
+@media (min-width: 600px) and (max-width: 1199px) {
+    .contact__ui-container {
+        max-width: 700px;
+    }
+
+    .contact__ui-container > * {
+        height: 500px;
+    }
+
+    .contact__ui-container > form > input{
+        width: 80%;
+    }
+
+    .contact__ui-container > form > button{
+        width: 80%;
+    }
+
+    .contact__ui-container > form > textarea{
+        width: 80%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .contact > h1 {
+        margin-left: 120px
+    }
+
+    .contact > *{
+        margin-bottom: 100px;
+    }
+
+    .contact__ui-container {
+        max-width: 1000px;
+    }
+    
+}
+
+
