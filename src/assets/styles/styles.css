@@ -1,0 +1,154 @@
+@import url(./Header.css);
+@import url(./FirstView.css);
+@import url(./Proyects.css);
+
+:root{
+    --black-muted: rgba(0, 0, 0, 0.349);
+    --blueviolet: #6C63FF;
+}
+
+body{
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin: 0;
+}
+
+h2{
+    margin: 0;
+}
+
+@media (min-width: 0px) and (max-width: 400px) {
+    i{
+        font-size: 1.3rem;
+    }
+
+    h1{
+        font-size: 1.5rem;
+    }
+
+    h2{
+        font-size: 1.2rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+    span{
+        font-size: 1rem;
+    }
+}
+
+
+@media ( min-width: 400px) and (max-width: 599px){
+    i{
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: 1.2rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    span{
+        font-size: 1.2rem;
+    }
+   
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+    i{
+        font-size: 1.7rem;
+    }
+    h1{
+        font-size: 2.2rem;
+    }
+    h2{
+        font-size: 1.8rem;
+    }
+    p{
+        font-size: 1.3rem;
+    }
+    span{
+        font-size: 1.3rem;
+    }
+  
+}
+
+@media ( min-width: 800px) and (max-width: 1000px){
+
+   i{
+        font-size: 1.7rem;
+    }
+
+    h1{
+        font-size: 2.3rem;
+    }
+    h2{
+        font-size: 1.9rem;
+    }
+    p{
+        font-size: 1.4rem;
+    }
+    span{
+        font-size: 1.4rem;
+    }
+
+}
+
+@media ( min-width: 1000px) and (max-width: 1440px){
+    i{
+        font-size: 1.7rem;
+    }
+
+    h1{
+        font-size: 2.4rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 1.5rem;
+    }
+    span{
+        font-size: 1.5rem;
+    }
+}
+
+@media ( min-width: 1440px){
+
+    i{
+        font-size: 1.8rem;
+    }
+
+    h1{
+        font-size: 2.6rem;
+    }
+    h2{
+        font-size: 2.3rem;
+    }
+    p{
+        font-size: 1.8rem;
+    }
+    span{
+        font-size: 1.8rem;
+    }
+
+}
+
