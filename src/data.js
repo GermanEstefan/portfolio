@@ -1,48 +1,51 @@
 export const skillsDB = [
     {
         id:1,
-        technology: 'HTML5',
-        level: '100%'
+        technology: 'HTML',
+        level: '100%',
+        img:'https://res.cloudinary.com/journalappgetest/image/upload/v1645907326/html-icon_go6h2h.png'
     },
     {
         id:2,
-        technology: 'CSS3',
-        level: '80%'
+        technology: 'CSS',
+        level: '80%',
+        img:'https://res.cloudinary.com/journalappgetest/image/upload/v1645907326/css-icon_khhcrx.png'
     },
     {
         id:3,
-        technology: 'Responsive',
-        level: '85%'
+        technology: 'JS(ES6+)',
+        level: '85%',
+        img:'https://res.cloudinary.com/journalappgetest/image/upload/v1645907326/javascript-icon_ztcfaf.png'
     },
     {
         id:4,
-        technology: 'JS(ES6+)',
-        level: '85%'
+        technology: 'ReactJS',
+        level: '70%',
+        img:'https://res.cloudinary.com/journalappgetest/image/upload/v1645907327/react-icon_krjk2s.png'
     },
     {
         id:5,
-        technology: 'ReactJS',
-        level: '70%'
+        technology: 'NodeJS',
+        level:'60%',
+        img:'https://res.cloudinary.com/journalappgetest/image/upload/v1645907326/node-icon_a8vydm.png'
     },
     {
         id:6,
-        technology: 'NodeJS',
-        level:'60%'
+        technology: 'Express',
+        level:'60%',
+        img:'https://res.cloudinary.com/journalappgetest/image/upload/v1645907326/express-icon_asa8v5.png'
     },
     {
         id:7,
-        technology: 'Express',
-        level:'60%'
+        technology: 'MongoDB',
+        level:'60%',
+        img:'https://res.cloudinary.com/journalappgetest/image/upload/v1645907506/pngwing.com_idp8tv.png'
     },
     {
         id:8,
-        technology: 'MongoDB',
-        level:'60%'
-    },
-    {
-        id:9,
         technology: 'JQuery',
-        level:'60%'
+        level:'60%',
+        img:'https://res.cloudinary.com/journalappgetest/image/upload/v1645907326/jquery-icon_ssiu9u.png'
     }
     
 ]

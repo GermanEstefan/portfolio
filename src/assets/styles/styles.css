@@ -1,5 +1,6 @@
 @import url(./Header.css);
 @import url(./FirstView.css);
+@import url(./AboutMe.css);
 @import url(./Proyects.css);
 @import url(./Contact.css);
 
@@ -91,6 +92,9 @@ textarea:focus{
     span{
         font-size: 1.3rem;
     }
+    li{
+        font-size: 1.1rem;
+    }
     
 }
 
@@ -120,6 +124,10 @@ textarea:focus{
     textarea::placeholder{
         font-size: 1rem;
     }
+
+    li{
+        font-size: 1.3rem;
+    }
  
 }
 
@@ -138,11 +146,19 @@ textarea:focus{
         font-size: 2rem;
     }
 
+    h3{
+        font-size: 1.8rem;
+    }
+
     p{
         font-size: 1.4rem;
     }
 
     span{
+        font-size: 1.5rem;
+    }
+
+    li{
         font-size: 1.5rem;
     }
     
