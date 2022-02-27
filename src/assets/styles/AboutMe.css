@@ -2,30 +2,23 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 50px; 
+    padding: 0px 50px 0px 50px;
 }
 
 .about > h1 {
     width: 230px;
-}
-
-.about > * {
-    margin-bottom: 70px;
+    margin: 50px 0px 50px 0px;
 }
 
 .about__info-container{
     display: flex;
     flex-direction: column;
-    width: 100%;
-}
-
-.about__info-container > * {
-    margin-bottom: 100px;
+    width: 100%;  
 }
 
 .about__info-container > * > h2 {
     text-align: center;
-    margin-bottom: 80px;
+    margin: 80px 0px 80px 0px;
 }
 
 .about__info-container > * > div{
@@ -40,6 +33,7 @@
     margin-right: 50px;
     height: 300px;
     object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px 0px;
 }
 
 /*Studies section*/
@@ -67,26 +61,36 @@
 .about__info-container__skills__img-and-container-skills > div > div > h3 {
     color: var(--blueviolet);
     text-align: center;
+    margin-bottom: 40px;
 }
 
-.about__info-container__skills__img-and-container-skills > div > :first-child > div { /* Skills container*/
+
+.about__info-container__skills__img-and-container-skills > div > :first-child > div { /*Technical abilties container*/
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.container-skill{ /*Skill container*/
+.container-skill{ /*Skill technical container*/
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 85px;
-    margin: 0px 15px 15px 0px;
+    margin: 0px 25px 25px 0px;
 }
 
-.container-skill > div{ 
+.container-skill > img { 
+    width: 100%;
+    height: 80px;
+    margin-bottom: 15px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.container-skill > div{ /* Bar skill percentage*/
     position: relative;
-    width: 90%;
-    height: 20px;
+    width: 100%;
+    height: 18px;
     background-color: #c4c4c4;
     border-radius: 10px;
 }
@@ -97,15 +101,9 @@
     border-radius: 10px;
     padding-left: 5px;
     color: #f2f2f2;
+    font-size: .9rem;
     font-weight: bold;
-}
 
-.container-skill > img { 
-    width: 100%;
-    height: 80px;
-    margin-bottom: 15px;
-    object-fit: cover;
-    object-position: top;
 }
 
 
@@ -143,14 +141,6 @@
         margin-top: 50px;
     }
     
-    .about__info-container__skills__img-and-container-skills > div > div > h3{
-        margin-bottom: 30px;
-    }
-
-    .about__info-container__skills__img-and-container-skills > div > div{
-        margin-bottom: 50px;
-    }
-    
 }
 
 
@@ -172,14 +162,6 @@
     }
     .about__info-container__skills__img-and-container-skills > div{
         margin-top: 50px;
-    }
-    
-    .about__info-container__skills__img-and-container-skills > div > div > h3{
-        margin-bottom: 30px;
-    }
-
-    .about__info-container__skills__img-and-container-skills > div > div{
-        margin-bottom: 50px;
     }
     
 }

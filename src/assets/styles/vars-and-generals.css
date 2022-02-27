@@ -1,0 +1,99 @@
+:root{
+    --blueviolet: #6C63FF;
+}
+
+body{
+    background-color: #f2f2f2;
+}
+
+h1{
+    align-self: flex-start;
+    border-bottom: 2px solid var(--blueviolet);
+    color: var(--blueviolet);
+    padding-bottom: 3px;
+}
+
+input, textarea {
+    border: none;
+    border-bottom: 1px solid var(--blueviolet);
+    padding: 5px;
+    background-color: transparent;
+}
+
+input::placeholder, textarea::placeholder{
+    color: black;
+}
+
+button{
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 1rem;
+}
+
+@media ( max-width: 599px) {
+
+    span{
+        font-size: 1.3rem;
+    }
+    li{
+        font-size: 1.2rem;
+    }
+    p{
+        font-size: 1.2rem;
+    }
+    
+}
+
+@media (min-width: 600px) and (max-width: 1199px) {
+
+
+    h1{
+        font-size: 2.7rem;
+    }
+
+    h2{
+        font-size: 1.8rem;
+    }
+    p{
+        font-size: 1.2rem;
+    }
+
+    span{
+        font-size: 1.3rem;
+    }
+
+    li{
+        font-size: 1.3rem;
+    }
+ 
+}
+
+@media (min-width: 1200px) {
+
+    h1{
+        font-size: 3rem;
+        width: 250px;
+    }
+
+    h2{
+        font-size: 2rem;
+    }
+
+    h3{
+        font-size: 1.8rem;
+    }
+
+    p{
+        font-size: 1.4rem;
+    }
+
+    span{
+        font-size: 1.5rem;
+    }
+
+    li{
+        font-size: 1.5rem;
+    }
+    
+}

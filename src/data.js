@@ -55,24 +55,32 @@ export const proyectsDB = [
         id:1,
         title:'Todo App',
         description: 'App para gestionar las tareas diarias, realizada con ReactJS, Express, MongoDB y JWT para la autenticacion',
-        img:'https://res.cloudinary.com/journalappgetest/image/upload/v1645769397/todoapp-proyect_kacrik.jpg'
+        img:'https://res.cloudinary.com/journalappgetest/image/upload/v1645769397/todoapp-proyect_kacrik.jpg',
+        linkRepo: 'https://github.com/GermanEstefan/Todo-app-backend',
+        linkWeb: 'https://todo-app-backend-by-german.herokuapp.com/'
     },
     {
         id:2,
         title:'Pokedex',
         description: 'Simulacion de una pokedex, donde se pueden visualizar, buscar y ver detalles de cualquier Pokemon, esta consume la API de "PokeAPI"',
-        img:'https://res.cloudinary.com/journalappgetest/image/upload/v1645769397/pokedex-proyect_u5av8w.jpg'
+        img:'https://res.cloudinary.com/journalappgetest/image/upload/v1645769397/pokedex-proyect_u5av8w.jpg',
+        linkRepo: 'https://github.com/GermanEstefan/Pokedex-App-V1',
+        linkWeb: 'https://germanestefan.github.io/Pokedex-App-V1/'
     },
     {
         id:3,
         title:'Emecann',
         description:'Pagina web realizada para una asociacion de cannabis medicinal, utilizando Html, Css y JavaScript vanilla',
-        img: 'https://res.cloudinary.com/journalappgetest/image/upload/v1645769397/emecann-proyect_g2xg4w.jpg'
+        img: 'https://res.cloudinary.com/journalappgetest/image/upload/v1645769397/emecann-proyect_g2xg4w.jpg',
+        linkRepo: 'https://github.com/GermanEstefan/Emecann',
+        linkWeb:'https://emecann.org.uy/'
     },
     {
         id:4,
         title:'Car selector',
         description: 'Esta app determina la mejor opcion al momento de adquirir un vehiculo, en base a las necesecidades que se le valla a dar. Este es mi primer proyecto realizado en la web, con el cual egrese el curso de CoderHouse con una nota de 10',
-        img: 'https://res.cloudinary.com/journalappgetest/image/upload/v1645800686/Sin_t%C3%ADtulo_qc0dgg.png'
+        img: 'https://res.cloudinary.com/journalappgetest/image/upload/v1645800686/Sin_t%C3%ADtulo_qc0dgg.png',
+        linkRepo:'',
+        linkWeb: ''
     }
 ]

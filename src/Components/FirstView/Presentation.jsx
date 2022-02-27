@@ -8,7 +8,7 @@ export const Presentation = () => {
         <span className='animate__animated animate__fadeIn animate__delay-2s'>I'm </span><strong className='animate__animated animate__fadeIn animate__delay-2s'>Full Stack Developer</strong><br />
         <span className='animate__animated animate__fadeIn animate__delay-2s'>(M.E.R.N stack )</span>
       </p>
-      <img src={require('../../assets/images/profileImage.jpeg')} alt="profile face" className='first-view__presentation__image animate__animated animate__fadeIn animate__delay-3s' />
+      <img src={require('../../assets/images/profileImage.jpeg')} alt="profile face" className='animate__animated animate__fadeIn animate__delay-3s' />
     </div>
   )
 }

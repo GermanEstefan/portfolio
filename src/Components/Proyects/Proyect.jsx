@@ -7,8 +7,8 @@ export const Proyect = ({ props }) => {
       <img src={props.img} alt={props.title} />
       <p>{props.description}</p>
       <div>
-        <i className="fab fa-github"></i>
-        <i className="fas fa-globe-americas"></i>
+        <a href={props.linkRepo} target='_blank'><i className="fab fa-github"></i></a>
+        <a href={props.linkWeb} target='_blank'><i className="fas fa-globe-americas"></i></a>
       </div>
     </div>
   )

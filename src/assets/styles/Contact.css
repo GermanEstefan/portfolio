@@ -3,11 +3,11 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding: 50px;
+    padding: 0px 50px 0px 50px;
 }
 
-.contact > * {
-    margin-bottom: 70px;
+.contact > h1 {
+    margin: 100px 0px 100px 0px
 }
 
 .contact__ui-container {
@@ -15,6 +15,8 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    max-width: 1000px;
+    margin-bottom: 150px;
 }
 
 .contact__ui-container > * {
@@ -38,10 +40,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-weight: bold;
 }
 
-.contact__ui-container__info-contact > div {
-    font-weight: bold;
+.contact__ui-container__info-contact > div > div > a{
+    color: black;
+    font-size: 2rem;
 }
 
 .contact__ui-container__info-contact > div > div > :first-child{
@@ -66,9 +70,8 @@
 
 .contact__ui-container > form > :nth-child(2){
     color: var(--blueviolet);
-    cursor:default;
+    font-size: 2.5rem;
 }
-
 
 .contact__ui-container > form > input{
     width: 60%;
@@ -77,40 +80,47 @@
 
 .contact__ui-container > form > button{
     width: 60%;
-    background-color: var(--blueviolet);
-    height: 35px;
-    color: #f2f2f2;
+    background-color: transparent;
+    outline: 2px solid var(--blueviolet);
+    color: var(--blueviolet);
+    font-weight: bold;
+    height: 30px;
     cursor: pointer;
+    transition: .5s;
+}
+
+.contact__ui-container > form > button:hover{
+    background-color: var(--blueviolet);
+    font-weight: lighter;
+    border: none;
+    color: #f2f2f2;
+    font-weight: bold;
 }
 
 .contact__ui-container > form > textarea{
     width: 60%;
     height: 150px;
     resize: none;
+    border: 1px solid var(--blueviolet);
+    border-radius: 3px;
 }
 
 @media ( max-width: 599px) {
 
     .contact{
         padding: 0px;
-       
     }
 
     .contact > h1 {
         margin-left: 10px;
     }
 
-    .contact__ui-container{
-        box-shadow: none;
-    }
-
     .contact__ui-container > * {
         height: 500px;
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
-    
 
-    .contact__ui-container > form > input{
+    .contact__ui-container > form > input {
         width: 90%;
     }
 
@@ -127,9 +137,6 @@
 @media (min-width: 600px) and (max-width: 1199px) {
     .contact__ui-container {
         max-width: 700px;
-    }
-
-    .contact__ui-container > * {
         height: 500px;
     }
 
@@ -151,14 +158,6 @@
         margin-left: 120px
     }
 
-    .contact > *{
-        margin-bottom: 100px;
-    }
-
-    .contact__ui-container {
-        max-width: 1000px;
-    }
-    
 }
 
 

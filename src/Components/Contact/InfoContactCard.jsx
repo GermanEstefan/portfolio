@@ -9,9 +9,8 @@ export const InfoContactCard = () => {
         <span>Social medias</span>
         <br />
         <div>
-          <i className="fab fa-instagram"></i>
-          <i className="fab fa-github"></i>
-          <i className="fab fa-linkedin-in"></i>
+          <a href="https://github.com/GermanEstefan/" target='_blank'><i className="fab fa-github"></i></a>  
+          <a href="https://www.linkedin.com/in/german-estefan-313075174/" target='_blank'><i className="fab fa-linkedin-in"></i></a> 
         </div>
       </div>
 
@@ -19,7 +18,7 @@ export const InfoContactCard = () => {
         <span>Location</span>
         <br />
         <div>
-          <i className='fas fa-map-marker-alt'></i>
+          <a href=""><i className='fas fa-map-marker-alt'></i></a>
         </div>
       </div>
 
@@ -27,8 +26,8 @@ export const InfoContactCard = () => {
         <span>Other means of contact</span>
         <br />
         <div>
-          <i className='fas fa-phone-square-alt'></i>
-          <i className='fas fa-envelope'></i>
+          <a href=""><i className='fas fa-phone-square-alt'></i></a>
+          <a href=""><i className='fas fa-envelope'></i></a> 
         </div>
       </div>
 

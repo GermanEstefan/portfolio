@@ -6,7 +6,7 @@ import './assets/styles/styles.css'
 const root = document.getElementById('root')
 
 render(
-  <React.StrictMode>,
+  <React.StrictMode>
     <Portfolio />
   </React.StrictMode>,
   root

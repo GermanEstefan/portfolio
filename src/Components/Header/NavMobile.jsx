@@ -16,14 +16,14 @@ export const NavMobile = () => {
 
   return (
     <nav className='nav-mobile'>
-      <i className="fas fa-bars nav-mobile__exit-btn" onClick={() => setOpenNav(true)}></i>
+      <i className="fas fa-bars" onClick={() => setOpenNav(true)}></i>
       {
         openNav && <ul id='navMobile' className='animate__animated animate__fadeInRight'>
           <i className="fas fa-times" onClick={handleCloseMenu}></i>
-          <li className='nav-mobile__link'>Home</li>
-          <li className='nav-mobile__link'>About me</li>
-          <li className='nav-mobile__link'>Proyects</li>
-          <li className='nav-mobile__link'>Contact</li>
+          <li>Home</li>
+          <li>About me</li>
+          <li>Proyects</li>
+          <li>Contact</li>
           <SocialMedias />
         </ul>
       }

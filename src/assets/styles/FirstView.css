@@ -1,8 +1,10 @@
+
 .first-view{
     align-items: center;
     display: flex;
     height: 100vh;
     justify-content: center;
+    margin-top: 0px;
 }
 
 .first-view__presentation{
@@ -12,10 +14,9 @@
     flex-wrap: wrap-reverse;
     font-weight: bold;
     width: 100%;
-    padding: 20px;
 }
 
-.first-view__presentation__image {
+.first-view__presentation > img {
     border-radius: 50%;
     object-fit: cover;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -69,7 +70,7 @@
 
 @media ( max-width: 599px) {
     .first-view__presentation{
-        padding: 10px;
+        padding: 0px 10px 0px 10px;
     }
 
     .first-view__presentation > p {
