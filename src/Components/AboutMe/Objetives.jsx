@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Objetives = () => {
   return (
-    <div className='about__info-container__objetives'>
+    <div className='about__info-container__objetives' data-aos='fade-left'>
       <h2>Objetivos</h2>
       <div>
         <ul>

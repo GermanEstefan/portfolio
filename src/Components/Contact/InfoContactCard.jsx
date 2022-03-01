@@ -1,7 +1,12 @@
 import React from 'react'
-import { SocialMedias } from '../Header/SocialMedias'
 
 export const InfoContactCard = () => {
+
+  const handleFocusInput = () => {
+    const input = document.getElementsByTagName('input')[0]
+    input.focus()
+  }
+
   return (
     <div className='contact__ui-container__info-contact'>
 
@@ -18,7 +23,7 @@ export const InfoContactCard = () => {
         <span>Location</span>
         <br />
         <div>
-          <a href=""><i className='fas fa-map-marker-alt'></i></a>
+          <i className='fas fa-map-marker-alt' onClick={handleFocusInput}></i>
         </div>
       </div>
 
@@ -26,11 +31,12 @@ export const InfoContactCard = () => {
         <span>Other means of contact</span>
         <br />
         <div>
-          <a href=""><i className='fas fa-phone-square-alt'></i></a>
-          <a href=""><i className='fas fa-envelope'></i></a> 
+          <i className='fas fa-phone-square-alt' onClick={handleFocusInput}></i>
+          <i className='fas fa-envelope' onClick={handleFocusInput}></i>
         </div>
       </div>
 
     </div>
   )
+ 
 }

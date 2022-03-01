@@ -8,7 +8,7 @@ export const Skills = () => {
   useEffect(() => setSkills(skillsDB), [skillsDB]);
 
   return (
-    <div className='about__info-container__skills'>
+    <div className='about__info-container__skills' data-aos='fade-left'>
 
       <h2>Habilidades</h2>
 

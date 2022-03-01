@@ -1,9 +1,12 @@
 :root{
     --blueviolet: #6C63FF;
+    --blueviolet-hover:#8e99f3;
 }
 
-body{
+html, body{
     background-color: #f2f2f2;
+    overflow-x: hidden;
+    position: relative;
 }
 
 h1{
@@ -29,6 +32,23 @@ button{
     padding: 5px;
     border-radius: 3px;
     font-size: 1rem;
+}
+
+.button-primary{
+    background-color: transparent;
+    outline: 2px solid var(--blueviolet);
+    color: var(--blueviolet);
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.button-primary:hover{
+    background-color: var(--blueviolet);
+    font-weight: lighter;
+    border: none;
+    color: #f2f2f2;
+    font-weight: bold;
 }
 
 @media ( max-width: 599px) {

@@ -74,13 +74,5 @@ export const proyectsDB = [
         img: 'https://res.cloudinary.com/journalappgetest/image/upload/v1645769397/emecann-proyect_g2xg4w.jpg',
         linkRepo: 'https://github.com/GermanEstefan/Emecann',
         linkWeb:'https://emecann.org.uy/'
-    },
-    {
-        id:4,
-        title:'Car selector',
-        description: 'Esta app determina la mejor opcion al momento de adquirir un vehiculo, en base a las necesecidades que se le valla a dar. Este es mi primer proyecto realizado en la web, con el cual egrese el curso de CoderHouse con una nota de 10',
-        img: 'https://res.cloudinary.com/journalappgetest/image/upload/v1645800686/Sin_t%C3%ADtulo_qc0dgg.png',
-        linkRepo:'',
-        linkWeb: ''
     }
 ]

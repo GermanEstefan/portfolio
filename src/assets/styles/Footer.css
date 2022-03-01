@@ -1,0 +1,95 @@
+footer{
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: #f2f2f2;
+    position: relative;
+    padding: 50px 0px 20px 0px;
+    text-align: center;
+    
+}
+
+footer > :first-child{
+    padding: 0px 45px 30px 0px;
+    padding-right: 30px;
+}
+
+footer > :nth-child(2){
+    padding: 0px 30px 30px 30px;
+}
+
+footer > nav {
+    position: relative !important;
+    padding: 0px 50px 0px 50px;
+}
+
+footer > nav > ul > :last-child{
+    margin-right: 0px;
+}
+
+footer > .social-medias{
+    position: static;
+    padding: 0px 30px 30px 30px;
+}
+
+footer > .to-upper {
+    position: absolute;
+    right: 25px;
+    top:-60px;
+    color: var(--blueviolet);
+    font-size: 2.5rem;
+    cursor: pointer;
+    transition: color .5s;
+}
+
+footer > .to-upper:hover{
+    color:var(--blueviolet-hover)
+}
+
+footer > .span-container{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+footer > .span-container > div > small{
+    font-size: 1rem;
+}
+
+footer > .span-container > i {
+    font-size: 2rem;
+    position: absolute;
+    right: -25px;
+}
+
+
+@media ( max-width: 599px) {
+
+    footer{
+        flex-direction: column;
+    }
+    
+    footer > nav > ul{
+        flex-direction: column !important;
+    }
+
+    footer > nav > ul > li {
+        margin: 0px 0px 15px 0px !important;
+    }
+
+    footer > .social-medias{
+        margin: 0;
+    }
+
+    footer > .span-container{
+        flex-direction: column;
+        padding-right:0 ;
+    }
+
+    footer > .span-container > i {
+        position: static;
+        margin-top: 15px;
+    }
+}

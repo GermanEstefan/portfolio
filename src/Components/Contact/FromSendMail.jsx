@@ -56,7 +56,7 @@ export const FromSendMail = () => {
                 value={message}
             >
             </textarea>
-            <button>Submit</button>
+            <button className='button-primary'>Submit</button>
         </form>
 
     )

@@ -46,6 +46,11 @@
 .proyects__all-proyects__proyect > div > a {
     color: var(--blueviolet);
     font-size: 2.3rem;
+    transition: color .5s;
+}
+
+.proyects__all-proyects__proyect > div > a:hover{
+    color: var(--blueviolet-hover);
 }
 
 .proyects__all-proyects__proyect > div > :first-child{

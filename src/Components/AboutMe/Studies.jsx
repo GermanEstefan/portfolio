@@ -1,8 +1,9 @@
 import React from 'react'
 
+
 export const Studies = () => {
   return (
-    <div className='about__info-container__studies'>
+    <div className='about__info-container__studies' data-aos='fade-right'>
       <h2>Estudios</h2>
       <div>
         <img src={require('../../assets/images/studys-about.png')} alt="estudios" />

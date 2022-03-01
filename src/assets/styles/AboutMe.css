@@ -7,13 +7,14 @@
 
 .about > h1 {
     width: 230px;
-    margin: 50px 0px 50px 0px;
+    margin: 100px 0px 50px 0px;
 }
 
 .about__info-container{
     display: flex;
     flex-direction: column;
     width: 100%;  
+    font-weight: bold;
 }
 
 .about__info-container > * > h2 {
@@ -39,16 +40,19 @@
 /*Studies section*/
 .about__info-container__studies > div > ul > li {
     margin-bottom: 25px;
+    list-style: circle;
 }
+
 
 /*Objetives section*/
-.about__info-container__objetives{
-    text-align: center;
-}
-
 .about__info-container__objetives > div > img{
     margin-right: 0px;
     margin-left: 50px;
+}
+
+.about__info-container__objetives > div > ul > li{
+    list-style: circle;
+    margin-bottom: 25px;
 }
 
 /*Skills section*/
@@ -118,7 +122,7 @@
     }
 
     .about__info-container {
-        padding: 0px 10px 0px 10px;
+        padding: 0px 20px 0px 30px;
     }
 
     .about__info-container > * > div{
@@ -176,6 +180,9 @@
 
 @media (min-width: 1200px) {
 
+    .about{
+        padding: 0;
+    }
     .about > h1 {
         margin-left: 120px
     }

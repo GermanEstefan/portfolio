@@ -8,7 +8,7 @@ export const AllProyects = () => {
     useEffect(() => setProyects(proyectsDB), [])
 
     return (
-        <div className='proyects__all-proyects'>
+        <div className='proyects__all-proyects' data-aos='fade-left'>
             {
                 proyects.map(proyect => (
                     <Proyect key={proyect.id} props={{...proyect}} />
