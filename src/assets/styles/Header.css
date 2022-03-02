@@ -8,6 +8,7 @@ header{
     width: 100vw;
     z-index: 1;
     height: 80px;
+    font-weight: lighter;
 }
 
 /*Social medias container*/

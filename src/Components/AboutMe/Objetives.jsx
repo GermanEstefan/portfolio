@@ -6,6 +6,7 @@ export const Objetives = () => {
       <h2>Objetivos</h2>
       <div>
         <ul>
+          <li>Tener mi primer exprencia profesional en el rubro</li>
           <li>Poder aportar todo mi conocimiento adquirido
             a una compania, ya sea para un producto en
             especifico o de manera consultora.

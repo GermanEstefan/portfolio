@@ -5,7 +5,7 @@ import { Skill } from './Skill';
 export const Skills = () => {
 
   const [skills, setSkills] = useState([]);
-  useEffect(() => setSkills(skillsDB), [skillsDB]);
+  useEffect(() => setSkills(skillsDB), []);
 
   return (
     <div className='about__info-container__skills' data-aos='fade-left'>
@@ -32,7 +32,7 @@ export const Skills = () => {
           <div>
             <h3>Otras</h3>
             <p>Empatico, productivo, comunicacion efectiva,
-              codigo limpio y escalable, entre otras.
+              capacidad de trabajar en equipo, entre otras.
             </p>
           </div>
 

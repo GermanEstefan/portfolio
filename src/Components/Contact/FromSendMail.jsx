@@ -1,5 +1,7 @@
 import React from 'react'
 import { useForm } from '../../hooks/useForm'
+import Swal from 'sweetalert2'
+import { isEmpty, isEmail } from 'validator'
 
 export const FromSendMail = () => {
 
@@ -8,6 +10,16 @@ export const FromSendMail = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
+        if (isEmpty(name) || isEmpty(email) || isEmpty(message)) {
+            return Swal.fire({
+                title: 'Campos vacios'
+            })
+        }
+        if (!isEmail(email)) {
+            return Swal.fire({
+                title: 'Email invalido'
+            })
+        }
         const data = new FormData();
         data.append('name', name);
         data.append('email', email);
@@ -19,12 +31,17 @@ export const FromSendMail = () => {
                 'Accept': 'application/json'
             }
         })
-        console.log(resp)
         if (resp.ok) {
-            alert('form enviado')
+            Swal.fire({
+                title: 'Mensaje enviado',
+                text: `${name}, en breves me pondre en contacto con usted.`
+            })
             resetForm();
         } else {
-            alert('Error pa')
+            Swal.fire({
+                title: 'Error',
+                text: 'Ah ocurrido un error, contactame por otro medio'
+            })
         }
     }
 
@@ -37,22 +54,24 @@ export const FromSendMail = () => {
                 name='name'
                 onChange={handleValuesChange}
                 autoComplete='off'
-                placeholder='Name'
+                placeholder='Nombre'
                 value={name}
+                
             />
             <input
-                type="email"
+                type="text"
                 name='email'
                 onChange={handleValuesChange}
                 autoComplete='off'
                 placeholder='Email'
                 value={email}
+                
             />
             <textarea
                 name='message'
                 onChange={handleValuesChange}
                 autoComplete="off"
-                placeholder='Type your inquire'
+                placeholder='Mensaje'
                 value={message}
             >
             </textarea>
