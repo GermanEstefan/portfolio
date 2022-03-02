@@ -14,7 +14,7 @@ export const Objetives = () => {
           <li>Absorver todo el conocimiento posible de mentores/as y colegas.</li>
           <li>Crecer personal y profesionalmente.</li>
         </ul>
-        <img src={require('../../assets/images/objetives-about.png')} alt="Objetivos" />
+        <img src='https://res.cloudinary.com/journalappgetest/image/upload/v1646252263/objetives-about_zmszrc.png' alt="Objetivos" />
       </div>
     </div>
   )

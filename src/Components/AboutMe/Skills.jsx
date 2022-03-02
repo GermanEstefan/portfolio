@@ -14,7 +14,7 @@ export const Skills = () => {
 
       <div className='about__info-container__skills__img-and-container-skills'>
 
-        <img src={require('../../assets/images/skills-about.png')} alt="" />
+        <img src='https://res.cloudinary.com/journalappgetest/image/upload/v1646252263/skills-about_bz5ppu.png' alt="" />
 
         <div>
 

@@ -28,7 +28,7 @@
 }
 
 .contact__ui-container__info-contact {
-    background-image: url('../images/card-contact.jpg');
+    background-image: url('https://res.cloudinary.com/journalappgetest/image/upload/v1646252263/card-contact_egc1fu.jpg');
     background-size: cover;
     display: flex;
     flex-direction: column;

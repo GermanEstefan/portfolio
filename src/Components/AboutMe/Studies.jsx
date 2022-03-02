@@ -6,7 +6,7 @@ export const Studies = () => {
     <div className='about__info-container__studies' data-aos='fade-right'>
       <h2>Estudios</h2>
       <div>
-        <img src={require('../../assets/images/studys-about.png')} alt="estudios" />
+        <img src='https://res.cloudinary.com/journalappgetest/image/upload/v1646252263/studys-about_a5sdwd.png' alt="estudios" />
         <ul>
           <li>Bachillerato tecnologo de informatica - ITS Montevideo - Uruguay</li>
           <li>JavaScript developer - CoderHouse</li>
