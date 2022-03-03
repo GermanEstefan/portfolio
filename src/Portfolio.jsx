@@ -22,6 +22,7 @@ export const Portfolio = () => {
       <Proyects />
       <Contact />
       <Footer />
+      <a href={require('./assets/Curriculum.pdf')} className='link-curriculum button-primary' rel="noreferrer" target='_blank'>Ver curriculum</a>
     </main>
   )
 }

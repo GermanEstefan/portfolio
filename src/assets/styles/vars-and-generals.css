@@ -52,6 +52,16 @@ button{
     font-weight: bold;
 }
 
+.link-curriculum{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    text-decoration: none;
+    padding: 8px;
+    width: 100;
+    border-radius: 5px;
+}
+
 @media ( max-width: 599px) {
 
     span{
