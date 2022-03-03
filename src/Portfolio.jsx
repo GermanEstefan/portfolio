@@ -22,7 +22,7 @@ export const Portfolio = () => {
       <Proyects />
       <Contact />
       <Footer />
-      <a href={require('./assets/Curriculum.pdf')} className='link-curriculum button-primary' rel="noreferrer" target='_blank'>Ver curriculum</a>
+      <a href='https://drive.google.com/file/d/1eFeaFR-3yTh4bb6ZHqR0_2X0ELpVZYlh/view?usp=sharing' className='link-curriculum button-primary' rel="noreferrer" target='_blank'>Ver curriculum</a>
     </main>
   )
 }
