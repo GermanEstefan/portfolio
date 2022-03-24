@@ -46,6 +46,12 @@ export const skillsDB = [
         technology: 'JQuery',
         level:'60%',
         img:'https://res.cloudinary.com/journalappgetest/image/upload/v1645907326/jquery-icon_ssiu9u.png'
+    },
+    {
+        id:9,
+        technology: 'TypeScript',
+        level:'50%',
+        img:'https://res.cloudinary.com/journalappgetest/image/upload/v1648157514/icons8-typescript-240_qkbabs.png'
     }
     
 ]
@@ -66,5 +72,13 @@ export const proyectsDB = [
         img: 'https://res.cloudinary.com/journalappgetest/image/upload/v1645769397/emecann-proyect_g2xg4w.jpg',
         linkRepo: 'https://github.com/GermanEstefan/Emecann',
         linkWeb:'https://emecann.org.uy/'
+    },
+    {
+        id:3,
+        title:'Exercise Tracker - Microservicio',
+        description: 'APIRest realizada en NodeJS para el curso de FreeCodeCamp, basicamente sirve para dar de alta usuarios y ejercicios realizados por los mismos, ademas de poder realizar consultas',
+        img:'https://res.cloudinary.com/journalappgetest/image/upload/v1648157335/exstracker_hngsfp.png',
+        linkRepo: 'https://github.com/GermanEstefan/microservicio-exercise-tracker',
+        linkWeb:'#'
     }
 ]

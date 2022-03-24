@@ -13,6 +13,7 @@ export const Studies = () => {
           <li>JavaScript Algorithms and Data Structures - FreeCodeCamp</li>
           <li>ReactJS Hooks y MERN - “ De cero a experto ” - Udemy</li>
           <li>NodeJS “De cero a experto” - Udemy</li>
+          <li>Back End Development and APIs - FreeCodeCamp</li>
         </ul>
       </div>
     </div>
