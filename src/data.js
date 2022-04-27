@@ -50,7 +50,7 @@ export const skillsDB = [
     {
         id:9,
         technology: 'TypeScript',
-        level:'50%',
+        level:'60%',
         img:'https://res.cloudinary.com/journalappgetest/image/upload/v1648157514/icons8-typescript-240_qkbabs.png'
     }
     
@@ -80,5 +80,13 @@ export const proyectsDB = [
         img:'https://res.cloudinary.com/journalappgetest/image/upload/v1648157335/exstracker_hngsfp.png',
         linkRepo: 'https://github.com/GermanEstefan/microservicio-exercise-tracker',
         linkWeb:'#'
+    },
+    {
+        id:4,
+        title:'Pokedex App',
+        description: 'App realizada con ReactJS - Typescript y Redux Toolkit para la gestion del estado. Toda la informacion proviene de una APIRest llamada PokeApi.',
+        img:'https://res.cloudinary.com/journalappgetest/image/upload/v1651028835/Sin_t%C3%ADtulo_yckkbb.png',
+        linkRepo: 'https://github.com/GermanEstefan/pokedex-app',
+        linkWeb: 'https://germanestefan.github.io/pokedex-app/'
     }
 ]
