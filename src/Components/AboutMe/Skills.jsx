@@ -31,14 +31,10 @@ export const Skills = () => {
 
           <div>
             <h3>Otras</h3>
-            <p>Empatico, productivo, comunicacion efectiva,
-              capacidad de trabajar en equipo, entre otras.
-            </p>
+            <p>Empatico, productivo, capacidad de trabajar en equipo, entre otras.</p>
           </div>
 
         </div>
-
-
 
       </div>
     </div>
